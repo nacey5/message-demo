@@ -7,8 +7,10 @@ import java.util.List;
 
 public class BatchMessageResultContext {
 
+    //查询结果列表
     private List<QueryVO> queryResultList;
 
+    //查找结果channel《渠道》
     private String finalResultChannel;
 
     public List<QueryVO> getQueryResultList() {
